@@ -1,0 +1,23 @@
+{
+  "name": "krx-stock-api",
+  "description": "KRX Stock API",
+  "version": "0.1.0",
+  "author": "Shin-JaeHeon",
+  "main": "src/index.js",
+  "license": "MIT",
+  "bug": {
+    "url": "https://github.com/Shin-JaeHeon/krx-stock-api/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Shin-JaeHeon/krx-stock-api.git"
+  },
+  "dependencies": {
+    "request-promise": "^4.2.4",
+    "request": "^2.88.0",
+    "xml-js": "^1.6.11"
+  },
+  "devDependencies": {
+    "@types/node": "^12.7.2"
+  }
+}

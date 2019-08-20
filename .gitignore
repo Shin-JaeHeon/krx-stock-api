@@ -1,0 +1,14 @@
+.idea/*
+node_modules/*
+
+yarn-error.log
+
+# Project exclude paths
+/src/dailyInformation.js
+/src/institutionalInvestorOffer.js
+/src/lib.js
+/src/market.js
+/src/offer.js
+/src/stock.js
+/src/transaction.js
+/test/test.js
