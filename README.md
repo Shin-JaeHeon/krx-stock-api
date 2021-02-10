@@ -77,7 +77,10 @@ Stock 데이터를 종합한 클래스입니다.
 ```typescript
 import krx from 'krx-stock-api';
 
-(async () => console.log(await krx.getStock('종목코드')))();
+(async () => { 
+  const stock = await krx.getStock('종목코드');
+  console.log(`${stock.name} : ${stock.price}원`); 
+} 
 ```
 
 
